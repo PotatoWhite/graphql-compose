@@ -1,0 +1,22 @@
+{
+  "name": "graphql-compose",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.5.0",
+    "@babel/core": "^7.5.0",
+    "@babel/node": "^7.5.0",
+    "@babel/preset-env": "^7.5.2",
+    "express": "^4.17.1",
+    "express-graphql": "^0.8.0",
+    "graphql": "^14.4.2",
+    "graphql-compose": "^6.3.5"
+  },
+  "scripts": {
+    "start": "babel-node src/index.js"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
+}
